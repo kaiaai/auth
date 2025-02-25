@@ -1,5 +1,5 @@
 # Stage 1: Building the code
-FROM node:21-alpine as builder
+FROM node:21-alpine AS builder
 
 # Set the working directory in the container
 WORKDIR /usr/src/api
